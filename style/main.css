@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    margin-top: 10vh;
+}
+
+main{
+    margin-top: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    color: rgb(230, 229, 229);
+}
+
+.card {
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8vh;
+}
+
+.card-items {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-items img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 90%;
+}
+
+.card-items p {
+    margin-top: 2vh;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.card-items span {
+    color: rgb(0, 255, 0);
+}
+
+.card-items .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card-items .button i {
+    margin-right: 5px;
+    color: black;
+    font-size: 1.2rem;
+
+}
+
+.card-items .button a {
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .card-items {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        gap: 4vh;
+    }
+}

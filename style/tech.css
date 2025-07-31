@@ -1,0 +1,78 @@
+#tech {
+    margin-top: 20vh;
+}
+
+#tech h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#tech .card {
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#tech .card .card-items {
+    width: 10%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tech .card .card-items:hover {
+    background-color: rgb(37, 37, 37);
+    transition: all 0.3s;
+}
+
+#tech .card .card-items img {
+    width: 100%;
+}
+
+#tech .card .card-items p {
+    color: white;
+    font-size: 1rem;
+    margin-top: 2vh;
+}
+
+#git {
+    background-color: white;
+    border-radius: 50%;
+}
+
+#tech .card .card-items img {
+    transition: transform 0.3s;
+}
+
+#tech .card .card-items:hover img {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    #tech {
+        margin-top: 10vh;
+    }
+
+    #tech .card .card-items {
+        width: 25%;
+    }
+
+    #tech .card .card-items p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #tech .card .card-items {
+        width: 35%;
+    }
+
+    #tech .card {
+        gap: 20px;
+    }
+}

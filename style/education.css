@@ -1,0 +1,98 @@
+#education {
+    margin-top: 30vh;
+}
+
+#education h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#education .card {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#education .card .card-item {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#education .card .card-item img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#education .card .card-item {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.inf {
+    padding-left: 10px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 25vh;
+}
+
+#education .card .card-item .butt {
+    margin-top: 2vh;
+}
+
+#education .card .card-item .butt a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 5px;
+    background-color: rgb(0, 112, 0);
+}
+
+#education .card .card-item:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media (max-width: 768px) {
+    #education {
+        margin-top: 15vh;
+    }
+
+    #education .card {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #education .card .card-item {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #education .card .card-item img {
+        width: 80%;
+    }
+
+    .inf {
+        border-left: none;
+        border-top: 2px solid black;
+        padding-left: 0;
+        padding-top: 10px;
+        height: auto;
+    }
+
+
+
+}
