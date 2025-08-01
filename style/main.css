@@ -1,9 +1,9 @@
-body{
+body {
     background-color: black;
     margin-top: 10vh;
 }
 
-main{
+main {
     margin-top: 10vh;
     width: 80%;
     margin: 0 auto;
@@ -84,15 +84,35 @@ h1 {
 
 
 @media (max-width: 768px) {
-    .card-items {
+
+    main{
+        width: 100%;
+    }
+
+    section {
         width: 90%;
     }
 
     h1 {
-        font-size: 1.5rem;
+        margin-top: 10vh;
+        font-size: 2rem;
+        color: white;
     }
 
     .card {
-        gap: 4vh;
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+
+    .card-items {
+        width: 100%;
+    }
+
+    .card-items img {
+        opacity: 100%;
+    }
+
+    .card-items p {
+        font-size: 1.2rem;
     }
 }
